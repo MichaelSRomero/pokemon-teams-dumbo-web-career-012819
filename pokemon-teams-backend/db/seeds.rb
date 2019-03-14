@@ -9,8 +9,8 @@ require 'faker'
 require 'securerandom'
 
 
-Trainer.delete_all
-Pokemon.delete_all
+Trainer.destroy_all
+Pokemon.destroy_all
 
 trainers_name = [
   'Prince',
